@@ -34,6 +34,7 @@ local script_content = [[
 
             -- Example Strat
             while _G.AutoStrat do
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:SelectMap("Simplicity") -- Only use this if you have VIP
                 TDS:VoteMap("Simplicity", Vector3.new(12.59, 10.64, 52.01)) -- Keep the Vectors as is, don't change them
 
