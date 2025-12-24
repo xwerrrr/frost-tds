@@ -115,7 +115,6 @@ local script_content = [[
                 TDS:Upgrade(16)
                 TDS:Upgrade(17)
                 TDS:Upgrade(18)
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:Place("Mercenary Base", 25.39, 1.00, 12.63) -- 19
                 TDS:Upgrade(19)
                 TDS:Upgrade(19)
