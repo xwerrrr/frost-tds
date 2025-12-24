@@ -42,7 +42,6 @@ local script_content = [[
                 task.wait(7)
 
                 TDS:Ready()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:UnlockTimeScale()
                 TDS:UseTimeScale(2) -- 2 being x2, after running this once, doing it again will kind of mess it up so don't run UseTimeScale again unless you know what you're doing!
                 
@@ -116,6 +115,7 @@ local script_content = [[
                 TDS:Upgrade(16)
                 TDS:Upgrade(17)
                 TDS:Upgrade(18)
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:Place("Mercenary Base", 25.39, 1.00, 12.63) -- 19
                 TDS:Upgrade(19)
                 TDS:Upgrade(19)
