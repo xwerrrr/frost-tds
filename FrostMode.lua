@@ -34,7 +34,6 @@ local script_content = [[
 
             -- Example Strat
             while _G.AutoStrat do
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:SelectMap("Simplicity") -- Only use this if you have VIP
                 TDS:VoteMap("Simplicity", Vector3.new(12.59, 10.64, 52.01)) -- Keep the Vectors as is, don't change them
 
@@ -43,7 +42,7 @@ local script_content = [[
                 task.wait(7)
 
                 TDS:Ready()
-
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerrrr/frost-tds/refs/heads/main/TELEPORT.lua"))()
                 TDS:UnlockTimeScale()
                 TDS:UseTimeScale(2) -- 2 being x2, after running this once, doing it again will kind of mess it up so don't run UseTimeScale again unless you know what you're doing!
                 
