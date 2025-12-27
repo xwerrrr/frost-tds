@@ -42,8 +42,7 @@ local script_content = [[
                 task.wait(7)
 
                 TDS:Ready()
-                TDS:UseTimeScale(2) -- 2 being x2, after running this once, doing it again will kind of mess it up so don't run UseTimeScale again unless you know what you're doing!
-                
+
                 TDS:Place("Scout", -15.24, 1.00, -8.97) -- 1
                 TDS:Place("Scout", -16.65, 1.00, -11.65) -- 2
                 TDS:Place("Scout", -19.71, 1.00, -12.34) -- 3
